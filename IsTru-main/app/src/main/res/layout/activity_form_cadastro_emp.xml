@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040450"
+    tools:context=".FormCadastroEmp">
+
+    <ImageView
+        android:id="@+id/fundo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.3"
+        android:background="@drawable/tela"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_nova_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastro Empresa"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <View
+        android:id="@+id/containerComponents"
+        style="@style/ContainerComponents"
+        android:layout_width="395dp"
+        android:layout_height="310dp"
+        android:alpha="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_nova_conta" />
+
+    <EditText
+        android:id="@+id/edit_nome_emp"
+        style="@style/Edit_Text_conta"
+        android:hint=" Nome da Empresa"
+        android:textColorHint="@color/white"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="@id/containerComponents" />
+
+    <EditText
+        android:id="@+id/edit_email_emp"
+        style="@style/Edit_Text_conta"
+        android:hint=" Email"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_email_branco"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintTop_toBottomOf="@id/edit_nome_emp"
+        />
+
+    <EditText
+        android:id="@+id/edit_senha_emp"
+        style="@style/Edit_Text_conta"
+        android:hint=" Senha"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_eye_branco"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintTop_toBottomOf="@id/edit_email_emp"
+        />
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edit_Cad_CPF"-->
+    <!--        style="@style/Edit_Text_conta"-->
+    <!--        android:hint=" CPF"-->
+    <!--        android:textColorHint="@color/white"-->
+    <!--        android:inputType="number"-->
+    <!--        android:drawableLeft="@drawable/ic_eye_branco"-->
+    <!--        app:layout_constraintEnd_toEndOf="@id/containerComponents"-->
+    <!--        app:layout_constraintStart_toStartOf="@id/containerComponents"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/edit_senha"-->
+    <!--        />-->
+
+
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+    <!--        android:id="@+id/bt_cadastrar"-->
+    <!--        style="@style/Button"-->
+    <!--        android:text="Cadastrar"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/containerComponents"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        />-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_prox_emp"
+        style="@style/Button"
+        android:text="Proximo"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/containerComponents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

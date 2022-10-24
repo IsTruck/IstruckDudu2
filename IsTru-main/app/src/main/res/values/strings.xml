@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">isTruck</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="esqSenha">Lembrar senha</string>
+    <string name="title_cadastro">Criar nova conta</string>
+    <string name="title_cadastro1">Cadastro Caminhoneiro</string>
+</resources>

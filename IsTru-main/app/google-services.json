@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "799968115147",
+    "project_id": "istruck-5cde7",
+    "storage_bucket": "istruck-5cde7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799968115147:android:efffeb8e23fa513b4e5e4e",
+        "android_client_info": {
+          "package_name": "com.example.istruck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799968115147-mo0q68ve6tijla5rf7uhq2egh3qpjg1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTRHOGQKmntOHmydU3KdXhPjQ3Bbq707I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799968115147-mo0q68ve6tijla5rf7uhq2egh3qpjg1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
